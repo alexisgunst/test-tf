@@ -1,4 +1,7 @@
 
+provider "aws" {
+}
+
 
 
 module "vpc" {
