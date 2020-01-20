@@ -13,12 +13,4 @@ variable "cidr_id" {
   type        = number
 }
 
-variable "ou_arn" {
-  description = "Organizational Unit (OU) ARN to which we want to share subnets"
-  type        = string
-}
 
-variable "flow_log_s3bucket" {
-  description = "ARN of the S3 bucket in Log account for VPC Flow logs"
-  type        = string
-}
